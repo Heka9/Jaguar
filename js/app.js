@@ -5133,10 +5133,10 @@
         var intl_tel_input = __webpack_require__(699);
         const input = document.querySelector("#phone");
         intl_tel_input(input, {
-            utilsScript: "../../build/js/utils.js",
             separateDialCode: true,
             nationalMode: false,
-            preferredCountries: [ "ua", "pl", "sk", "hu", "cz" ]
+            preferredCountries: [ "ua", "pl", "sk", "hu", "cz" ],
+            utilsScript: "../../build/js/utils.js"
         });
         window["FLS"] = true;
         isWebp();
