@@ -6,7 +6,7 @@
   position: relative;
   width: 100%;
   display: inline-block;
-  height: 60px;
+  height: 54px;
 }
 
 .iti * {
@@ -2448,8 +2448,12 @@ body::after {
   grid-template-columns: 1fr;
 }
 
+.form__line {
+  position: relative;
+}
+
 .form__line:not(:last-child) {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.875rem;
 }
 
 .form__line input {
@@ -2528,6 +2532,9 @@ body::after {
 }
 
 .form__error {
+  position: absolute;
+  top: 100%;
+  left: 0;
   margin-top: 0.3125rem;
   font-size: 0.875rem;
   color: red;
