@@ -2083,7 +2083,7 @@ body::after {
   color: rgb(46, 139, 87);
   background-color: transparent;
   position: absolute;
-  left: 25px;
+  left: 27px;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -3107,8 +3107,16 @@ body::after {
     row-gap: 1.25rem;
   }
 
+  .main-block__button {
+    width: 100%;
+  }
+
   .about-work__content {
     text-align: center;
+  }
+
+  .about-work__button {
+    width: 100%;
   }
 
   .reviews__title {
