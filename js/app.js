@@ -5134,9 +5134,7 @@
         const input = document.querySelector("#phone");
         intl_tel_input(input, {
             separateDialCode: true,
-            nationalMode: false,
-            preferredCountries: [ "ua", "pl", "sk", "hu", "cz" ],
-            utilsScript: "../../build/js/utils.js"
+            preferredCountries: [ "ua", "pl", "sk", "hu", "cz" ]
         });
         window["FLS"] = true;
         isWebp();
