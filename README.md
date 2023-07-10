@@ -1,4 +1,4 @@
-# Hiring Workers Site
+# Jaguar
 
 Welcome to the Hiring Workers Site project! This platform is designed to connect employers with skilled workers efficiently and effectively. 
 The site boasts excellent design and responsiveness, ensuring an exceptional user experience across various devices and screen sizes.
